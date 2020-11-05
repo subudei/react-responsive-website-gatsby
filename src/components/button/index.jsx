@@ -2,7 +2,7 @@ import React from "react"
 import "./styles.css"
 import { Link } from "gatsby"
 
-const STYLES = ["btn--primary", "btn-outline"]
+const STYLES = ["btn--primary", "btn--outline"]
 const SIZES = ["btn--medium", "btn--large"]
 
 const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import "./styles.css"
 
 import { Link } from "gatsby"
@@ -20,6 +20,9 @@ function Navbar({ siteTitle }) {
       setButton(true)
     }
   }
+  useEffect(() => {
+    showButton()
+  }, [])
 
   window.addEventListener("resize", showButton)
 
@@ -27,7 +30,7 @@ function Navbar({ siteTitle }) {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             {siteTitle}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
