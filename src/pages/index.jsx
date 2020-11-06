@@ -1,4 +1,5 @@
 import React from "react"
+import Cards from "../components/cards"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout/index"
@@ -11,6 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <VideoSection />
+    <Cards />
   </Layout>
 )
 

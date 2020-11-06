@@ -64,10 +64,10 @@ function Navbar({ siteTitle }) {
                 Products
               </Link>
             </li>
-            <li className="nav-item">
+            <li>
               <Link
                 to="/sign-up"
-                className="nav-links"
+                className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
                 Sign Up
