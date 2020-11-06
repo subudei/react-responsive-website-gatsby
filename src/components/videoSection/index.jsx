@@ -2,7 +2,7 @@ import React from "react"
 
 import Button from "../button"
 import "./styles.css"
-import Video from "../../assets/video-2.mp4"
+import Video from "../../assets/forest.mp4"
 
 function VideoSection() {
   return (
