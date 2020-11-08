@@ -10,7 +10,7 @@ function Footer() {
         <p className="footer-subcription-heading">
           Join the Adventure newsletter to recive our best vacation deals.
         </p>
-        <p className="footer-subcription-text">
+        <p className="footer-subscription-text">
           You can unsubcribe at any time.
         </p>
         <div className="input-arias">
