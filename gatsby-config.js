@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Meta Title`,
-    description: `dodaj keywords.`,
+    title: `Mountain Resort`,
+    description: `mountain, planiana, skijanje, snowbord, ski, hiking, planinarenje`,
     author: `subudei`,
   },
   plugins: [

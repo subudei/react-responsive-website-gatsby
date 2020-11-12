@@ -52,7 +52,7 @@ function Navbar({ siteTitle }) {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Winter
               </Link>
             </li>
             <li className="nav-item">
@@ -61,7 +61,7 @@ function Navbar({ siteTitle }) {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Summer
               </Link>
             </li>
             <li>
@@ -70,7 +70,7 @@ function Navbar({ siteTitle }) {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Book Now
               </Link>
             </li>
           </ul>

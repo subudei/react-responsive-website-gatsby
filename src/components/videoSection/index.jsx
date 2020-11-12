@@ -8,7 +8,7 @@ function VideoSection() {
   return (
     <div className="video-container">
       <video src={Video} autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
+      <h1>MOUNTAIN AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="video-btns">
         <Button
