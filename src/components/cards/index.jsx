@@ -1,11 +1,13 @@
 import React from "react"
 import "./styles.css"
 import CardItem from "../card"
-import Tree from "../../images/trees.jpg"
+import Kayak from "../../images/kayak.jpg"
 import Ski from "../../images/ski.jpg"
 import Mountin from "../../images/mountin.jpg"
-import Tree2 from "../../images/tree.jpg"
+import Fisherman from "../../images/fisherman.jpg"
 import Bikiing from "../../images/biking.jpg"
+import Holidays from "../../images/holiday.jpg"
+import Landscape from "../../images/landscape.jpg"
 
 function Cards() {
   return (
@@ -35,30 +37,30 @@ function Cards() {
               path="/summer"
             />
             <CardItem
-              src={Tree2}
-              text="Let's go and paint the town red!!!"
-              label="Nature"
-              path="/services"
+              src={Fisherman}
+              text="Water of Mountain Resort provides  outstanding fly fishing experiences for the discriminating fly fisherman on the world-class waters."
+              label="Fishing"
+              path="/summer"
             />
             <CardItem
-              src={Tree}
-              text="some text"
-              label="Some Label"
-              path="/services"
+              src={Kayak}
+              text="Start your kayak adventure on our beautiful lake."
+              label="Kayaking"
+              path="/summer"
             />
           </ul>
           <ul className="cards--items">
             <CardItem
-              src={Ski}
-              text="Let's go and paint the town red!!!"
-              label="Color"
-              path="/services"
+              src={Holidays}
+              text="Explore the snowy trails of Mountain Resort."
+              label="Nature"
+              path="/winter"
             />
             <CardItem
-              src={Mountin}
-              text="Let's go and paint the town red!!!"
+              src={Landscape}
+              text="When you see a waterfall, an undisturbed meadow, or the glassy surface of a lake, it might be difficult to put the beauty into words."
               label="Travel"
-              path="/services"
+              path="/summer"
             />
           </ul>
         </div>
